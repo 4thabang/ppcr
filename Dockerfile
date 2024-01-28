@@ -3,13 +3,13 @@ FROM python:3.11
 WORKDIR /app
 
 # Miguels API key
-#ENV OPENAI_API_KEY=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
+#ENV OPENAI_API_KEY=
 
 # Morningside API Key
-ENV OPENAI_API_KEY=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 
+ENV OPENAI_API_KEY=
 
 # SendGrid API key
-ENV SENDGRID_API_KEY=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
+ENV SENDGRID_API_KEY=
 
 COPY requirements.txt /app/
 RUN pip install --upgrade pip && pip install -r requirements.txt
