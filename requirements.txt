@@ -1,0 +1,16 @@
+openai
+Flask
+flask-cors
+python-dotenv
+requests
+boto3
+pydantic
+requests
+tiktoken
+sendgrid
+pydantic
+openai-function-call
+celery
+gunicorn
+Werkzeug
+retry
